@@ -19,6 +19,7 @@
 		0114FBA72BC0D03B00BEF16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0114FBAA2BC0D03B00BEF16B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0114FBB12BC0D0A100BEF16B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0114FBB42BC0D20400BEF16B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 			children = (
 				0114FBA12BC0D03A00BEF16B /* Top12of2023App.swift */,
 				0114FBB12BC0D0A100BEF16B /* HomeView.swift */,
+				0114FBB42BC0D20400BEF16B /* .gitignore */,
 				0114FBA72BC0D03B00BEF16B /* Assets.xcassets */,
 				0114FBA92BC0D03B00BEF16B /* Preview Content */,
 			);
