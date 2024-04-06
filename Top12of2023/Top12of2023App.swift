@@ -1,10 +1,3 @@
-//
-//  Top12of2023App.swift
-//  Top12of2023
-//
-//  Created by Mack Slevin on 4/5/24.
-//
-
 import SwiftUI
 import SwiftData
 
