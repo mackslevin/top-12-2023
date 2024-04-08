@@ -1,10 +1,3 @@
-//
-//  TopAlbumView.swift
-//  Top12of2023
-//
-//  Created by Mack Slevin on 4/5/24.
-//
-
 import SwiftUI
 
 struct TopAlbumView: View {
@@ -20,19 +13,19 @@ struct TopAlbumView: View {
             .frame(width: 100, height: 100)
             .shadow(radius: 4)
             .overlay {
+                Color.black.opacity(0.2)
+            }
+            .overlay {
                 Text("\(album.position)")
-                    .fontWeight(.black)
-                    .fontWidth(.expanded)
-                    .font(.system(size: 48))
                     .foregroundStyle(.ultraThickMaterial)
                     .shadow(radius: 1)
+                    .font(.displayFont(ofSize: 48))
             }
             
             HStack {
                 Text(album.title)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                    .font(.title2)
-                    .fontWeight(.semibold)
+                    .font(.displayFont(ofSize: 21))
                 
                 VStack(alignment: .trailing) {
                     Spacer()

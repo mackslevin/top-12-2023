@@ -13,6 +13,8 @@
 		0114FBB22BC0D0A100BEF16B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114FBB12BC0D0A100BEF16B /* HomeView.swift */; };
 		0114FBB62BC0D2E200BEF16B /* GoodAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114FBB52BC0D2E200BEF16B /* GoodAlbum.swift */; };
 		0114FBBA2BC0D79D00BEF16B /* TopAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114FBB92BC0D79D00BEF16B /* TopAlbumView.swift */; };
+		014AB97C2BC4646A00F7DC90 /* PPHatton-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 014AB97B2BC4646A00F7DC90 /* PPHatton-Bold.otf */; };
+		014AB97E2BC466A300F7DC90 /* Font-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014AB97D2BC466A300F7DC90 /* Font-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		0114FBB42BC0D20400BEF16B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0114FBB52BC0D2E200BEF16B /* GoodAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAlbum.swift; sourceTree = "<group>"; };
 		0114FBB92BC0D79D00BEF16B /* TopAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumView.swift; sourceTree = "<group>"; };
+		014AB97A2BC4625500F7DC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		014AB97B2BC4646A00F7DC90 /* PPHatton-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PPHatton-Bold.otf"; sourceTree = "<group>"; };
+		014AB97D2BC466A300F7DC90 /* Font-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +61,13 @@
 		0114FBA02BC0D03A00BEF16B /* Top12of2023 */ = {
 			isa = PBXGroup;
 			children = (
+				014AB97A2BC4625500F7DC90 /* Info.plist */,
+				014AB97B2BC4646A00F7DC90 /* PPHatton-Bold.otf */,
 				0114FBA12BC0D03A00BEF16B /* Top12of2023App.swift */,
 				0114FBB12BC0D0A100BEF16B /* HomeView.swift */,
 				0114FBB92BC0D79D00BEF16B /* TopAlbumView.swift */,
 				0114FBB52BC0D2E200BEF16B /* GoodAlbum.swift */,
+				014AB97D2BC466A300F7DC90 /* Font-Extension.swift */,
 				0114FBB42BC0D20400BEF16B /* .gitignore */,
 				0114FBA72BC0D03B00BEF16B /* Assets.xcassets */,
 				0114FBA92BC0D03B00BEF16B /* Preview Content */,
@@ -133,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014AB97C2BC4646A00F7DC90 /* PPHatton-Bold.otf in Resources */,
 				0114FBAB2BC0D03B00BEF16B /* Preview Assets.xcassets in Resources */,
 				0114FBA82BC0D03B00BEF16B /* Assets.xcassets in Resources */,
 			);
@@ -149,6 +158,7 @@
 				0114FBA22BC0D03A00BEF16B /* Top12of2023App.swift in Sources */,
 				0114FBB62BC0D2E200BEF16B /* GoodAlbum.swift in Sources */,
 				0114FBB22BC0D0A100BEF16B /* HomeView.swift in Sources */,
+				014AB97E2BC466A300F7DC90 /* Font-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +295,7 @@
 				DEVELOPMENT_TEAM = CCAQHTG68D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Top12of2023/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +325,7 @@
 				DEVELOPMENT_TEAM = CCAQHTG68D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Top12of2023/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
