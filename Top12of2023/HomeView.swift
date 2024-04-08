@@ -24,8 +24,11 @@ struct HomeView: View {
             .navigationTitle("Top 12 Albums")
             .ignoresSafeArea(.container, edges: .bottom)
             .onAppear {
-                let customLargeTitle = UIFont(name: "PPHatton-Bold", size: 48)
+                let customLargeTitle = UIFont(name: "PPHatton-Bold", size: 48)!
                 UINavigationBar.appearance().largeTitleTextAttributes = [.font: customLargeTitle]
+                
+                let customInline = UIFont(name: "PPHatton-Bold", size: 20)!
+                UINavigationBar.appearance().titleTextAttributes = [.font: customInline]
             }
         }
     }

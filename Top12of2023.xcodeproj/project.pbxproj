@@ -61,7 +61,6 @@
 		0114FBA02BC0D03A00BEF16B /* Top12of2023 */ = {
 			isa = PBXGroup;
 			children = (
-				014AB97A2BC4625500F7DC90 /* Info.plist */,
 				014AB97B2BC4646A00F7DC90 /* PPHatton-Bold.otf */,
 				0114FBA12BC0D03A00BEF16B /* Top12of2023App.swift */,
 				0114FBB12BC0D0A100BEF16B /* HomeView.swift */,
@@ -70,6 +69,7 @@
 				014AB97D2BC466A300F7DC90 /* Font-Extension.swift */,
 				0114FBB42BC0D20400BEF16B /* .gitignore */,
 				0114FBA72BC0D03B00BEF16B /* Assets.xcassets */,
+				014AB97A2BC4625500F7DC90 /* Info.plist */,
 				0114FBA92BC0D03B00BEF16B /* Preview Content */,
 			);
 			path = Top12of2023;
