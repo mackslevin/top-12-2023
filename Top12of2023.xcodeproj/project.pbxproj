@@ -12,6 +12,7 @@
 		0114FBAB2BC0D03B00BEF16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0114FBAA2BC0D03B00BEF16B /* Preview Assets.xcassets */; };
 		0114FBB22BC0D0A100BEF16B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114FBB12BC0D0A100BEF16B /* HomeView.swift */; };
 		0114FBB62BC0D2E200BEF16B /* GoodAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114FBB52BC0D2E200BEF16B /* GoodAlbum.swift */; };
+		0114FBBA2BC0D79D00BEF16B /* TopAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114FBB92BC0D79D00BEF16B /* TopAlbumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0114FBB12BC0D0A100BEF16B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0114FBB42BC0D20400BEF16B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0114FBB52BC0D2E200BEF16B /* GoodAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAlbum.swift; sourceTree = "<group>"; };
+		0114FBB92BC0D79D00BEF16B /* TopAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0114FBA12BC0D03A00BEF16B /* Top12of2023App.swift */,
 				0114FBB12BC0D0A100BEF16B /* HomeView.swift */,
+				0114FBB92BC0D79D00BEF16B /* TopAlbumView.swift */,
 				0114FBB52BC0D2E200BEF16B /* GoodAlbum.swift */,
 				0114FBB42BC0D20400BEF16B /* .gitignore */,
 				0114FBA72BC0D03B00BEF16B /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0114FBBA2BC0D79D00BEF16B /* TopAlbumView.swift in Sources */,
 				0114FBA22BC0D03A00BEF16B /* Top12of2023App.swift in Sources */,
 				0114FBB62BC0D2E200BEF16B /* GoodAlbum.swift in Sources */,
 				0114FBB22BC0D0A100BEF16B /* HomeView.swift in Sources */,
