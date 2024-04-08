@@ -20,6 +20,9 @@ struct TopAlbumView: View {
             .frame(width: 100, height: 100)
             .shadow(radius: 4)
             .overlay {
+                Color.black.opacity(0.2)
+            }
+            .overlay {
                 Text("\(album.position)")
                     .fontWeight(.black)
                     .fontWidth(.expanded)
